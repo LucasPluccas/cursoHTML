@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e radio buton</title>
+</head>
+<body>
+    <form method="get">
+        <!--metodo get as escolhas vão para a url-->
+        <!--metodo post vai ficar oculta essa informação do url-->
+        <h3>Você selecionou pizza de calabresa</h3>
+        <input type="checkbox" name="opcional[]" value="queijo"> + queijo <br>
+        <input type="checkbox" name="opcional[]" value="calabresa"> + calabresa <br>
+        <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br>
+        <input type="checkbox" name="opcional[]" value="azeitona"> + azeitona <br> 
+        <!--Deixe o campo name em branco, para não dar problema no backend--> 
+        <!--Ou dê o nome de opcional[] para que o código entenda que os valores escolhidos devem ser listados ali dentro-->
+        <br>
+        <p>Borda recheda?</p>
+        <input type="radio" name="borda" value="sim">Sim<br>
+        <input type="radio" name="borda" value="não">Não<br>
+        <!--use o mesmo nome em name="" para que o código permita apenas uma escolha no modelo radio button-->
+        <br>
+        <p>Bebidas?</p>
+        <input type="radio" name="bebida" value="suco">Suco<br>
+        <input type="radio" name="bebida" value="refrigerante">Refrigerante<br>
+        <input type="radio" name="bebida" value="água">Água<br>
+        <input type="radio" name="bebida" value="nenhum">Nenhum<br>
+
+        <button type="submit">Enviar pedido</button>
+
+
+
+
+
+
+    </form>
+</body>
+</html>
