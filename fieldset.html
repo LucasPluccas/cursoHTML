@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+    <style>
+        .row {
+            margin: 20px
+        }
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Fieldset serve para seguimentar ou agrupar determinado trecho selecionado em quadros no html.-->
+
+    <h5>Exemplo de FIELDSET no código HTML</h5>
+    <h1>Formulário de cadastro:</h1>
+    <form>
+    
+        <fieldset><!--Abre o fieldset e fecha com o trecho que quer agrupar em um quadro-->
+            <div class="row">
+            <legend>Dados Pessoais</legend><!--Pode usar uma tag legend para dar um nome aquele quadro fieldset-->
+        <label>Nome:</label><input type="text">
+        <label>Email:</label><input type="text">
+        <label>CPF:</label><input type="text">
+        <label>Funcionário:</label>
+        <select name="role">
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <div class="row">
+        <div class="row">
+        <legend>Contatos</legend>
+        <label>Telefone:</label><input type="text">
+        <label>Celular:</label><input type="text">
+        <label>WhatsApp:</label><input type="text">
+        </div>
+            </div>
+        </fieldset>
+
+        <button type="reset"><label>Limpar</label>
+        <button type="submit"><label>Enviar</label>
+
+    </form>
+    
+</body>
+</html>
