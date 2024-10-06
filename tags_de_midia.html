@@ -5,7 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tags de midia no código HTML</title>
 </head>
-<body>
-    
+
+<body style="background-color: black">
+<h1>
+O que são as tags de mídia?
+</h1>
+<p>
+Tags usadas especificamente para anexar mídias no seu código HTML.
+</p>
+
+<h1>Tag &ltimg&gt</h1><p>Usada para anexar imagens, gifs e etc...</p>
+<h2>Tag img</h2>
+<!--basta abrir a tag img src="pode ser o caminho da imagem online, ou um arquivo baixado no seu servidor"-->
+<img src="https://i.pinimg.com/736x/ca/ce/4d/cace4d0f7c961f0c1fcdfb6ee17cb801.jpg"/>
+<!--Caso use apenas o caminho e feche a tag, o html vai executar no tamanho original da imagem, vídeo ou gif por exemplo.-->
+
+<img src="https://i.pinimg.com/736x/ca/ce/4d/cace4d0f7c961f0c1fcdfb6ee17cb801.jpg" width="200"/>
+<!--use atributos para mudar tamanho da imagem-->
+
+<p>atributo Title e alt</p>
+<p>atributo Title serve para nomear a imagem anexada</p>
+<p>Atributo alt serve para fazer uma descrição da imagem, para auxilio para deficientes, e leitura de robo</p>
+<img title="Clique e conheça mais sobre nós" alt="descrição do logo do SC Coritnhians Paulista" src="https://i.pinimg.com/736x/ca/ce/4d/cace4d0f7c961f0c1fcdfb6ee17cb801.jpg" width="200"/>
+
+<h1>Tag Audio</h1><p>Usada para anexar exclusivamente audio</p>
+<!--Use atributos autoplay para tocar automáticamente, e controls para ter play, pause e volume-->
+<audio autoplay controls>
+<source src="arquivo.mp3"/>
+O seu navegador não tem suporte para este áudio
+</audio>
+
+<br>
+<h1>Tag &ltvídeo&gt</h1><p>Usada para anexar vídeos</p>
+
+<video controls>
+<source src="https://www.youtube.com/shorts/OwMaL8RsUk0"/>
+<source src="arquivo.webm"/>
+Seu navegador não suporta vídeo
+<!--Tag track é para legendas, ela deve ser usada dentro da tag video-->
+<!--VTT é um tipo de texto para legenda.-->
+
+<track src="legenda.vtt" kind="captions" srclang="en" />
+<track default ="legenda-ptbr.vtt" kind="captions" srclang="pt-br" />
+</video>
+
 </body>
+
 </html>
