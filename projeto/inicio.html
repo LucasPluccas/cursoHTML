@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="stylesheet" href="estilo_projeto.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Os Apóstolos</title>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo"><a href="inicio.html" style="text-decoration: none; color: inherit;">Os Apóstolos</a></div>
+      <nav class="nav">
+        <a href="https://www.bible.com/pt/bible/1930/GEN.1.NVT" target="_blank" style="color:red"
+        >Antigo Testamento</a>
+        <a href="https://www.bible.com/pt/bible/1930/MAT.1.NVT" target="_blank" style="color:red;">Novo Testamento</a> </nav>
+        
+     
+      
+      <div class="user">
+        <img src="jesusperfil.jpg" width="50" height="50" margin-left=100 />
+      </div>
+    </header>
+   
+    <div class="banner">
+      <h1>Conheça a vida dos apóstolos de Jesus</h1>
+      <p>
+        Os homens que espalharam o evangelho pelo mundo conhecido da época
+      </p><br>
+      <button onclick="abrirVideo()">O que é o Evangelho?</button>
+      <div id="videoContainer" style="display: block;">
+        <iframe id="videoFrame" width="460" height="215" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+      </div>
+    </div>
+    <br>
+  
+    <div class="apostolado">
+        <h2>Apostolado</h2>
+        <div class="apostolado-container">
+          <div class="apostolado-item">
+          <a href="pedro.html"><img src="pedro.webp" title="Simão Pedro" width="250" height="180" /></a>
+          <p>Simão Pedro (Cefas)</p></div>
+          <div class="apostolado-item">
+          <img src="joao.webp" title="João" width="250" height="180" />
+          <p>João, o discipulo amado</p></div>
+          <div class="apostolado-item">
+          <img src="tiagomaior.webp" title="Tiago (Filho de Zebedeu)" width="250" height="180" />
+          <p>Tiago, o maior</p></div>
+          <div class="apostolado-item">
+          <img src="andree.webp" title="André" width="250" height="180" />
+          <p>André, o primeiro chamado</p></div>
+          <div class="apostolado-item">
+          <img src="filipe.webp" title="Filipe" width="250" height="180" />
+          <p>Filipe, de Betsaida</p></div>
+          <div class="apostolado-item">
+          <img src="bartolomeu.webp" title="Bartolomeu" width="250" height="180" />
+          <p>Bartolomeu (Natanael), o sem dolo</p></div>
+          <div class="apostolado-item">
+          <img src="mateus.webp" title="Mateus" width="250" height="180" />
+          <p>Mateus (Levi), o cobrador de impostos</p></div>
+          <div class="apostolado-item">
+          <img src="tome.webp" title="Tomé" width="250" height="180" />
+          <p>Tomé (Dídimo), o incrédulo</p></div>
+          <div class="apostolado-item">
+          <img src="tiagomenor.webp" title="Tiago (Filho de Alfeu)" width="250" height="180" />
+          <p>Tiago (Menor), filho de Alfeu</p></div>
+          <div class="apostolado-item">
+          <img src="tadeu.webp" title="Tadeu" width="250" height="180" />
+          <p>Judas Tadeu, o outro Judas</p></div>
+          <div class="apostolado-item">
+          <img src="simao.webp" title="Simão" width="250" height="180" />
+          <p>Simão, o Zelote</p></div>
+          <div class="apostolado-item">
+          <img src="judasisca.webp" title="Judas" width="250" height="180" />
+          <p>Judas Iscariotes, o traídor</p></div>
+          <div class="apostolado-item">
+            <img src="paulo.webp" title="Judas" width="250" height="180" />
+            <p>Paulo de Tarso, o apostolo dos gentios</p></div>
+    </div>
+    </div>
+    <div class="footer"><p>&copy; 2025 Bible Project. Todos os direitos reservados.</p>
+        <p>&copy; 2025 App Bible YouVersion</p></div>
+  </body>
+  <script>
+    function abrirVideo() {
+      const videoURL = "https://www.youtube.com/embed/-jsKGBkk1Sg?si=LYDu84mpmENvxjsu&autoplay=1";
+
+            document.getElementById("videoFrame").src = "https://www.youtube.com/embed/-jsKGBkk1Sg?si=LYDu84mpmENvxjsu";
+      document.getElementById("videoContainer").style.display = "block";
+    }
+  </script>
+
+</html>

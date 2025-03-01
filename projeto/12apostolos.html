@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="estilo_projeto.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Os doze</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      #videoContainer {
+        display: none;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Os Apóstolos</div>
+      <nav class="nav">
+        <a
+          href="https://www.bible.com/pt/bible/1930/JHN.1.NVT"
+          target="_blank"
+          style="color: white"
+          >Bíblia</a
+        >
+        
+      </nav>
+      <div class="user">
+        <img src="jesusperfil.jpg" alt="Perfil" width="50" height="50" />
+      </div>
+    </header>
+
+    <div class="banner">
+      <h1>Conheça a vida dos 12 discipulos de Jesus</h1>
+      <p>os homens que espalharam o evangelho pelo mundo da época</p>
+      <br />
+      <button onclick="abrirVideo()">O que é o Evangelho?</button>
+      <div id="videoContainer">
+        <iframe id="videoFrame" width="460" height="215" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+      </div>
+    </div>
+
+    <div class="movies">
+      <h2>Apostolado</h2>
+      <div class="movies-container">
+        <a href="pedro.html"><img src="pedro.webp" title="Simão Pedro" width="250" height="180" /></a>
+        <img src="joao.webp" title="João" width="250" height="180" />
+        <img
+          src="tiagomaior.webp"
+          title="Tiago (Filho de Zebedeu)"
+          width="250"
+          height="180"
+        />
+        <img src="andree.webp" title="André" width="250" height="180" />
+        <img src="filipe.webp" title="Filipe" width="250" height="180" />
+        <img
+          src="bartolomeu.webp"
+          title="Bartolomeu"
+          width="250"
+          height="180"
+        />
+        <img src="https://source.unsplash.com/200x300/?movie,5" alt="Tomé" />
+        <img src="mateus.webp" alt="Mateus" />
+        <img
+          src="https://source.unsplash.com/200x300/?movie,5"
+          alt="Tiago (Filho de Alfeu)"
+        />
+        <img src="https://source.unsplash.com/200x300/?movie,5" alt="Tadeu" />
+        <img
+          src="https://source.unsplash.com/200x300/?movie,5"
+          alt="Simão (O Zelote)"
+        />
+        <img src="" alt="Judas Iscariotes" width="250" height="180" />
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2025 Bible Project. Todos os direitos reservados.</p>
+      <p>Quem Jesus Cristo é para você?</p>
+    </div>
+  </body>
+  <script>
+    function abrirVideo() {
+      const videoURL = "https://www.youtube.com/embed/-jsKGBkk1Sg?si=LYDu84mpmENvxjsu&autoplay=1";
+
+            document.getElementById("videoFrame").src = "https://www.youtube.com/embed/-jsKGBkk1Sg?si=LYDu84mpmENvxjsu";
+      document.getElementById("videoContainer").style.display = "block";
+    }
+  </script>
+</html>

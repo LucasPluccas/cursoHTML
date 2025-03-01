@@ -1,0 +1,174 @@
+body {
+    background-color: #141414;
+    color: white;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: black;
+    width: auto;
+    height: auto;
+    top: 2px;
+    z-index: 1000;
+    font-size: 20px;
+       
+    }
+    .nav{
+      margin-left: -110px;
+      margin-top: 4px;
+      color: white;
+      gap: 20px;
+    }
+   
+  
+    .header img{
+      margin-left: -80px;
+    }
+
+  .logo {
+    
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+  .banner {
+    background: url("https://source.unsplash.com/1600x900/?movie") no-repeat
+      center center/cover;
+         height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 35px;
+    
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+   
+  }
+  .banner p {
+    font-size: 1.rem;
+    
+  }
+
+  .apostolado {
+    padding: 20px;
+  }
+
+  .apostolado h2 {
+    margin-bottom: 10px;
+  }
+
+  .apostolado-container {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #e50914 white;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 1;
+  }
+  .apostolado-item{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .apostolado-item img {
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .apostolado-item img:hover {
+    transform: scale(1.1);
+  }
+  .apostolado-item p {
+    margin-top: 10pxpx;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .apostolado-container img {
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .apostolado-container img:hover {
+    transform: scale(1.1);
+    scrollbar-width: none;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    margin-top: 20px;
+  }
+  text.align {
+    text-align: left;
+  }
+  #videoContainer {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+  }
+  .logo2 {
+    margin-left: 200px;
+    color: white;
+    shadow: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -35px;
+    }
+    .foto{
+      margin-left: 1px;
+      margin-top: 20px;
+    }
+    .legenda{
+      margin-left: 50px;
+      margin-top: 20px;
+      
+    }
+  .introducao {
+    text-align: justify;
+    margin-top: -365px;
+    margin-left: 369px;
+    margin-right: 20px;
+    font-size: 20px;
+    font: arial;
+    }
+  .conteudo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font: arial;
+  }
+  
+</style>
